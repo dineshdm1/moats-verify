@@ -1,8 +1,12 @@
 # Moats Verify
 
-Moats Verify checks factual claims against your document library and returns per-claim verdicts with citations.
+Moats Verify checks AI-generated text against your document library and returns per-claim verdicts with citations.
 
 ## What it does
+
+Verify AI-generated text against your documents.
+
+Works for RAG output, report fact-checking, compliance review, or any text you want to verify against source documents.
 
 - Extracts factual claims from input text
 - Retrieves candidate evidence from ChromaDB
