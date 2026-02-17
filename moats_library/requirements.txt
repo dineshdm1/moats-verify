@@ -1,0 +1,40 @@
+# Chainlit for chat interface
+chainlit>=1.0.0
+
+# Agno framework for agent memory, learning, and knowledge
+agno[sqlite,chroma]>=1.0.0
+aiosqlite>=0.20.0
+openai>=1.0.0
+
+# HTTP client
+httpx>=0.25.0
+
+# PDF processing
+pymupdf>=1.23.0
+
+# EPUB processing
+ebooklib>=0.18
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# DOCX processing
+python-docx>=1.0.0
+
+# Vector store
+chromadb>=0.4.0
+
+# Reranking (lightweight cross-encoder, ~4MB)
+flashrank>=0.2.0
+
+# Neo4j graph database
+neo4j>=5.0.0
+
+# OCR support (optional)
+pytesseract>=0.3.10
+pillow>=10.0.0
+
+# LLM Evaluation
+deepeval>=2.0.0
+# deepteam is optional for /redteam command (has dependency conflicts)
+# Install manually if needed: pip install deepteam
+bloom @ git+https://github.com/safety-research/bloom.git
